@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.EntityFramework", "CrazyBull.Models\CrazyBull.EntityFramework.csproj", "{F5841A3A-D8E3-45E7-95D7-40B48BA6C32F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Web", "CrazyBull.Web\CrazyBull.Web.csproj", "{5F733F9B-B4C8-4DB4-BD0D-AE394A93C3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Api", "CrazyBull.Api\CrazyBull.Api.csproj", "{8CAC56D8-C7A8-4D27-ABD4-F93E188E9777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A921C789-B064-4539-ABC9-223B3574C1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Application", "CrazyBull.Application\CrazyBull.Application.csproj", "{27DA439E-1AFE-4448-A772-B94F7DA620A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Entity", "CrazyBull.Entity\CrazyBull.Entity.csproj", "{0F12BE84-8BCB-4586-B3FF-BEEFF9EECAC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5264D2DC-E47D-40E9-B8A7-659A3EB9682B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.WebFramework", "CrazyBull.WebFramework\CrazyBull.WebFramework.csproj", "{73FF1990-3EBB-46AC-910D-40FBDDE02700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5841A3A-D8E3-45E7-95D7-40B48BA6C32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5841A3A-D8E3-45E7-95D7-40B48BA6C32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5841A3A-D8E3-45E7-95D7-40B48BA6C32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5841A3A-D8E3-45E7-95D7-40B48BA6C32F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F733F9B-B4C8-4DB4-BD0D-AE394A93C3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F733F9B-B4C8-4DB4-BD0D-AE394A93C3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F733F9B-B4C8-4DB4-BD0D-AE394A93C3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F733F9B-B4C8-4DB4-BD0D-AE394A93C3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAC56D8-C7A8-4D27-ABD4-F93E188E9777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAC56D8-C7A8-4D27-ABD4-F93E188E9777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAC56D8-C7A8-4D27-ABD4-F93E188E9777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAC56D8-C7A8-4D27-ABD4-F93E188E9777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27DA439E-1AFE-4448-A772-B94F7DA620A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DA439E-1AFE-4448-A772-B94F7DA620A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DA439E-1AFE-4448-A772-B94F7DA620A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DA439E-1AFE-4448-A772-B94F7DA620A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F12BE84-8BCB-4586-B3FF-BEEFF9EECAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F12BE84-8BCB-4586-B3FF-BEEFF9EECAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F12BE84-8BCB-4586-B3FF-BEEFF9EECAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F12BE84-8BCB-4586-B3FF-BEEFF9EECAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FF1990-3EBB-46AC-910D-40FBDDE02700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FF1990-3EBB-46AC-910D-40FBDDE02700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FF1990-3EBB-46AC-910D-40FBDDE02700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FF1990-3EBB-46AC-910D-40FBDDE02700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5841A3A-D8E3-45E7-95D7-40B48BA6C32F} = {5264D2DC-E47D-40E9-B8A7-659A3EB9682B}
+		{0F12BE84-8BCB-4586-B3FF-BEEFF9EECAC6} = {A921C789-B064-4539-ABC9-223B3574C1CE}
+		{73FF1990-3EBB-46AC-910D-40FBDDE02700} = {5264D2DC-E47D-40E9-B8A7-659A3EB9682B}
+	EndGlobalSection
+EndGlobal

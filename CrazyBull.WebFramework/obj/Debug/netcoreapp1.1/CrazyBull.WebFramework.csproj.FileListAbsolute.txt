@@ -1,0 +1,4 @@
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.WebFramework\bin\Debug\netcoreapp1.1\CrazyBull.WebFramework.deps.json
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.WebFramework\bin\Debug\netcoreapp1.1\CrazyBull.WebFramework.dll
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.WebFramework\obj\Debug\netcoreapp1.1\CrazyBull.WebFramework.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.WebFramework\obj\Debug\netcoreapp1.1\CrazyBull.WebFramework.AssemblyInfo.cs

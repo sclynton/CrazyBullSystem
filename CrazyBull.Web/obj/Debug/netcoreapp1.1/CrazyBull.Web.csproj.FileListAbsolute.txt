@@ -1,0 +1,13 @@
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.deps.json
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.runtimeconfig.json
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.runtimeconfig.dev.json
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.dll
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.AssemblyInfo.cs
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Models.dll
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.pdb
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Models.pdb
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.dll
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.pdb
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Data.dll
+C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Data.pdb
