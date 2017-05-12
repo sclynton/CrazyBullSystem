@@ -2808,6 +2808,13 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "CrazyBull.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1"
+        }
       }
     }
   },
@@ -8176,10 +8183,16 @@
         "system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "CrazyBull.Entity/1.0.0": {
+      "type": "project",
+      "path": "../CrazyBull.Entity/CrazyBull.Entity.csproj",
+      "msbuildProject": "../CrazyBull.Entity/CrazyBull.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "CrazyBull.Entity >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 1.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 1.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.1",
@@ -8193,17 +8206,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj",
+      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj",
       "projectName": "CrazyBull.EntityFramework",
-      "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj",
-      "outputPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Models\\obj\\",
+      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj",
+      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Entity.csproj": {
+              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Entity.csproj"
+            }
+          }
         }
       }
     },

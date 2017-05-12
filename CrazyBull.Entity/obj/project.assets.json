@@ -7080,10 +7080,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Entity.csproj",
+      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Entity.csproj",
       "projectName": "CrazyBull.Entity",
-      "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Entity.csproj",
-      "outputPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Entity\\obj\\",
+      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Entity.csproj",
+      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

@@ -9,10 +9,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using CrazyBull.Models;
-using CrazyBull.Data.Repositrories;
-using CrazyBull.Data.Interfaces;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using CrazyBull.Data.Repositrories;
 
 namespace CrazyBull.Web
 {
@@ -49,7 +48,7 @@ namespace CrazyBull.Web
             services.AddDbContext<NovelBookDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conn")));
 
             var builder = new ContainerBuilder();
-            builder.RegisterType<BookRepository>().As<IBookRepository>();
+            //builder.RegisterGeneric<Data.Repositrories.Repository>().As<IRepository>();
             builder.RegisterType<NovelBookDbContext>();
 
             builder.Populate(services);

@@ -17,4 +17,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CrazyBull.Entity\CrazyBull.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

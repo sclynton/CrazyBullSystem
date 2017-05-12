@@ -3875,13 +3875,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "CrazyBull.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v1.1",
-        "dependencies": {
-          "Microsoft.NETCore.App": "1.1.1"
-        }
-      },
       "CrazyBull.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
@@ -3893,6 +3886,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
+          "CrazyBull.Entity": "1.0.0",
           "Microsoft.EntityFrameworkCore": "1.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.1",
@@ -10293,11 +10287,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "CrazyBull.Application/1.0.0": {
-      "type": "project",
-      "path": "../CrazyBull.Application/CrazyBull.Application.csproj",
-      "msbuildProject": "../CrazyBull.Application/CrazyBull.Application.csproj"
-    },
     "CrazyBull.Entity/1.0.0": {
       "type": "project",
       "path": "../CrazyBull.Entity/CrazyBull.Entity.csproj",
@@ -10311,8 +10300,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
-      "CrazyBull.Application >= 1.0.0",
-      "CrazyBull.Entity >= 1.0.0",
       "CrazyBull.EntityFramework >= 1.0.0",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
@@ -10328,10 +10315,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
+      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
       "projectName": "CrazyBull.Api",
-      "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
-      "outputPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Api\\obj\\",
+      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
+      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -10339,14 +10326,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj"
-            },
-            "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Entity.csproj": {
-              "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Entity.csproj"
-            },
-            "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Application\\CrazyBull.Application.csproj": {
-              "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Application\\CrazyBull.Application.csproj"
+            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj": {
+              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj"
             }
           }
         }

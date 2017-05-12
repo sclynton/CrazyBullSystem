@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using CrazyBull.Data.Interfaces;
+using CrazyBull.Entity.Repository;
 
 namespace CrazyBull.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IBookRepository _bookRepository;
-        public HomeController(IBookRepository bookRepository)
+        public HomeController()
         {
-            _bookRepository = bookRepository;
+            
         }
         public IActionResult Index()
         {
-            return View(_bookRepository.GetAll());
+            return View();
         }
 
         public IActionResult About()

@@ -9154,10 +9154,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.WebFramework\\CrazyBull.WebFramework.csproj",
+      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.WebFramework\\CrazyBull.WebFramework.csproj",
       "projectName": "CrazyBull.WebFramework",
-      "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.WebFramework\\CrazyBull.WebFramework.csproj",
-      "outputPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.WebFramework\\obj\\",
+      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.WebFramework\\CrazyBull.WebFramework.csproj",
+      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.WebFramework\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

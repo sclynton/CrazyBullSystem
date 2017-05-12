@@ -11,3 +11,10 @@ C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Api
 C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Api.pdb
 C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.dll
 C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Api.deps.json
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Api.runtimeconfig.json
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Api.runtimeconfig.dev.json
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.csprojResolveAssemblyReference.cache
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.AssemblyInfo.cs
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.pdb

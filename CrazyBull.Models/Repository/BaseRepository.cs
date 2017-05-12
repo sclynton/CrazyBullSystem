@@ -1,14 +1,14 @@
-﻿using CrazyBull.Data.Interfaces;
-using CrazyBull.Models;
+﻿using CrazyBull.Models;
 using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using CrazyBull.Entity.Repository;
 
 namespace CrazyBull.Data.Repositrories
 {
-    public class Repository<T> : IRepository<T> where T : Entity
+    public class Repository<T> : IRepository<T> where T : Entity.Entity
     {
         private readonly NovelBookDbContext _dbContext;
         public Repository(NovelBookDbContext dbContext)
@@ -18,7 +18,7 @@ namespace CrazyBull.Data.Repositrories
 
         public async Task<IEnumerable<T>> GetAll()
         {
-            await _dbContext.Set<T>().ToAsyncEnumerable();
+            throw new Exception();
         }
 
         public async Task<int> InsertAsync(T t)

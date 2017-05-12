@@ -3986,10 +3986,18 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "CrazyBull.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1"
+        }
+      },
       "CrazyBull.EntityFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
+          "CrazyBull.Entity": "1.0.0",
           "Microsoft.EntityFrameworkCore": "1.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.1",
@@ -10442,6 +10450,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "CrazyBull.Entity/1.0.0": {
+      "type": "project",
+      "path": "../CrazyBull.Entity/CrazyBull.Entity.csproj",
+      "msbuildProject": "../CrazyBull.Entity/CrazyBull.Entity.csproj"
+    },
     "CrazyBull.EntityFramework/1.0.0": {
       "type": "project",
       "path": "../CrazyBull.Models/CrazyBull.EntityFramework.csproj",
@@ -10470,10 +10483,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Web\\CrazyBull.Web.csproj",
+      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Web\\CrazyBull.Web.csproj",
       "projectName": "CrazyBull.Web",
-      "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Web\\CrazyBull.Web.csproj",
-      "outputPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Web\\obj\\",
+      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Web\\CrazyBull.Web.csproj",
+      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Web\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -10481,8 +10494,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\123\\documents\\visual studio 2017\\Projects\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj"
+            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj": {
+              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj"
             }
           }
         }
