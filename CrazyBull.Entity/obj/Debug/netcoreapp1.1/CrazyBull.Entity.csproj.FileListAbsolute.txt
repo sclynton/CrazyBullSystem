@@ -1,0 +1,7 @@
+E:\projects\git\CrazyBullSystem\CrazyBull.Entity\bin\Debug\netcoreapp1.1\CrazyBull.Entity.deps.json
+E:\projects\git\CrazyBullSystem\CrazyBull.Entity\bin\Debug\netcoreapp1.1\CrazyBull.Entity.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.Entity\bin\Debug\netcoreapp1.1\CrazyBull.Entity.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.Entity\obj\Debug\netcoreapp1.1\CrazyBull.Entity.csprojResolveAssemblyReference.cache
+E:\projects\git\CrazyBullSystem\CrazyBull.Entity\obj\Debug\netcoreapp1.1\CrazyBull.Entity.AssemblyInfo.cs
+E:\projects\git\CrazyBullSystem\CrazyBull.Entity\obj\Debug\netcoreapp1.1\CrazyBull.Entity.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.Entity\obj\Debug\netcoreapp1.1\CrazyBull.Entity.pdb
