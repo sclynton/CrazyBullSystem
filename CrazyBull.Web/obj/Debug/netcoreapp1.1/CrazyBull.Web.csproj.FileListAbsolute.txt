@@ -11,10 +11,3 @@ C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web
 C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.pdb
 C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Data.dll
 C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Data.pdb
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.deps.json
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.runtimeconfig.json
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.runtimeconfig.dev.json
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.csprojResolveAssemblyReference.cache
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.AssemblyInfo.cs
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.dll
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.pdb

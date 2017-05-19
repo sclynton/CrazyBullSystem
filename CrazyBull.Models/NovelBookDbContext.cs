@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using JetBrains.Annotations;
-using CrazyBull.Entity;
+using CrazyBull.Core;
 
 namespace CrazyBull.Models
 {

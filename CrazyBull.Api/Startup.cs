@@ -7,10 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using CrazyBull.Data.Repositrories;
-using CrazyBull.Data.Interfaces;
-using CrazyBull.Models;
-using Microsoft.EntityFrameworkCore;
+using MySQL.Data.EntityFrameworkCore.Extensions;
+using CrazyBull.MySql.EntityFramework;
+using Dora.Interception;
 
 namespace CrazyBull.Api
 {
@@ -29,13 +28,13 @@ namespace CrazyBull.Api
         public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<NovelBookDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conn")));
-            services.AddScoped<IBookRepository, BookRepository>();
-            services.AddScoped<NovelBookDbContext>();
+            services.AddDbContext<CrazyBullDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("Conn")));
+            services.AddScoped<CrazyBullDbContext>();
             // Add framework services.
             services.AddMvc();
+            return services.BuilderInterceptableServiceProvider(builder=>builder.SetDynamicProxyFactory());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,7 +42,6 @@ namespace CrazyBull.Api
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
             app.UseMvc();
         }
     }

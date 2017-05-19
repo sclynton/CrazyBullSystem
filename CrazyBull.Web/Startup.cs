@@ -9,8 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using CrazyBull.Models;
-using Autofac;
-using Autofac.Extensions.DependencyInjection;
+//using Autofac;
+//using Autofac.Extensions.DependencyInjection;
 using CrazyBull.Data.Repositrories;
 
 namespace CrazyBull.Web
@@ -30,31 +30,30 @@ namespace CrazyBull.Web
         public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        //public void ConfigureServices(IServiceCollection services)
-        //{
-        //    //
-            
-        //    // Add framework services.
-        //    services.AddMvc();
-
-        //    services.AddDbContext<NovelBookDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("Conn")));
-        //    services.AddScoped<IBookRepository, BookRepository>();
-        //    services.AddScoped<NovelBookDbContext>();
-
-        //}
-        public IServiceProvider ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            //DI
             services.AddDbContext<NovelBookDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conn")));
+            //services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<NovelBookDbContext>();
 
-            var builder = new ContainerBuilder();
-            //builder.RegisterGeneric<Data.Repositrories.Repository>().As<IRepository>();
-            builder.RegisterType<NovelBookDbContext>();
+            // Add framework services.
+            services.AddMvc();
 
-            builder.Populate(services);
-
-            return new AutofacServiceProvider(builder.Build());
         }
+        //public IServiceProvider ConfigureServices(IServiceCollection services)
+        //{
+        //    services.AddMvc();
+        //    services.AddDbContext<NovelBookDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conn")));
+
+        //    var builder = new ContainerBuilder();
+        //    //builder.RegisterGeneric<Data.Repositrories.Repository>().As<IRepository>();
+        //    builder.RegisterType<NovelBookDbContext>();
+
+        //    builder.Populate(services);
+
+        //    return new AutofacServiceProvider(builder.Build());
+        //}
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
