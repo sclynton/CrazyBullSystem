@@ -2,6 +2,20 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
+      "Dora.Interception/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "1.1.0",
+          "NETStandard.Library": "1.6.1",
+          "System.ComponentModel": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Dora.Interception.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Dora.Interception.dll": {}
+        }
+      },
       "Libuv/1.9.1": {
         "type": "package",
         "dependencies": {
@@ -176,6 +190,32 @@
             "assetType": "native",
             "rid": "win8-arm"
           }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.ComponentModel": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
       "Microsoft.NETCore.App/1.1.2": {
@@ -2266,10 +2306,36 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "CrazyBull.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.2"
+        }
+      },
+      "CrazyBull.Util/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Dora.Interception": "1.1.0",
+          "Microsoft.NETCore.App": "1.1.2"
+        }
       }
     }
   },
   "libraries": {
+    "Dora.Interception/1.1.0": {
+      "sha512": "VbnkXCgfiCoqSCrB7ROtDwE3Ued9PBa1Q5LMRLKUkoYDH6lUjNbwbMIriS8XFMaIsZRRA/QtCzwDcDi27ymYiw==",
+      "type": "package",
+      "path": "dora.interception/1.1.0",
+      "files": [
+        "dora.interception.1.1.0.nupkg.sha512",
+        "dora.interception.nuspec",
+        "lib/netstandard1.6/Dora.Interception.dll",
+        "lib/netstandard1.6/Dora.Interception.xml"
+      ]
+    },
     "Libuv/1.9.1": {
       "sha512": "uqX2Frwf9PW8MaY7PRNY6HM5BpW1D8oj1EdqzrmbEFD5nH63Yat3aEjN/tws6Tw6Fk7LwmLBvtUh32tTeTaHiA==",
       "type": "package",
@@ -2423,6 +2489,28 @@
         "runtimes/win/native/Microsoft.DiaSymReader.Native.arm.dll",
         "runtimes/win/native/Microsoft.DiaSymReader.Native.x86.dll",
         "runtimes/win8-arm/native/Microsoft.DiaSymReader.Native.arm.dll"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/1.1.0": {
+      "sha512": "meG2tsLdHT0SROqxGBiY8A6XUKlwsQVj1N9cyrS+ZJd1MKhoSaw54KuSH6PmpCB/K/ifkR7o9yVVVamu9XZyeg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/1.1.0",
+      "files": [
+        "lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.1.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.0": {
+      "sha512": "2luhjVaWZd8Wmr2KUJcLNAN+iZgezTyfamLG6Lo5FVYY1LYaS7UFOmNtApHGVIytWWtuXSk4ea0t2Vx0HgF5fg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/1.1.0",
+      "files": [
+        "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.1.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
     "Microsoft.NETCore.App/1.1.2": {
@@ -7029,30 +7117,49 @@
         "system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "CrazyBull.Core/1.0.0": {
+      "type": "project",
+      "path": "../CrazyBull.Entity/CrazyBull.Core.csproj",
+      "msbuildProject": "../CrazyBull.Entity/CrazyBull.Core.csproj"
+    },
+    "CrazyBull.Util/1.0.0": {
+      "type": "project",
+      "path": "../CrazyBull.Util/CrazyBull.Util.csproj",
+      "msbuildProject": "../CrazyBull.Util/CrazyBull.Util.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "CrazyBull.Core >= 1.0.0",
+      "CrazyBull.Util >= 1.0.0",
       "Microsoft.NETCore.App >= 1.1.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\123\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Application\\CrazyBull.Application.csproj",
+      "projectUniqueName": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Application\\CrazyBull.Application.csproj",
       "projectName": "CrazyBull.Application",
-      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Application\\CrazyBull.Application.csproj",
-      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Application\\obj\\",
+      "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Application\\CrazyBull.Application.csproj",
+      "outputPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Application\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj": {
+              "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj"
+            },
+            "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Util\\CrazyBull.Util.csproj": {
+              "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Util\\CrazyBull.Util.csproj"
+            }
+          }
         }
       }
     },

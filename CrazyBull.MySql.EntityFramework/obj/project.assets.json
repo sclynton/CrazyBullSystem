@@ -8818,15 +8818,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\123\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj",
+      "projectUniqueName": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj",
       "projectName": "CrazyBull.MySql.EntityFramework",
-      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj",
-      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\obj\\",
+      "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj",
+      "outputPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -8834,8 +8834,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj": {
-              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj"
+            "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj": {
+              "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj"
             }
           }
         }

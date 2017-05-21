@@ -4086,9 +4086,9 @@
       "files": [
         "ASL - Apache Software Foundation License.txt",
         "CHANGELOG.md",
-        "Castle.Core.4.0.0.nupkg.sha512",
-        "Castle.Core.nuspec",
         "LICENSE",
+        "castle.core.4.0.0.nupkg.sha512",
+        "castle.core.nuspec",
         "lib/net35/Castle.Core.dll",
         "lib/net35/Castle.Core.xml",
         "lib/net40-client/Castle.Core.dll",
@@ -5025,10 +5025,10 @@
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection/1.1.0",
       "files": [
-        "Microsoft.Extensions.DependencyInjection.1.1.0.nupkg.sha512",
-        "Microsoft.Extensions.DependencyInjection.nuspec",
         "lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.xml"
+        "lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.1.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.0": {
@@ -5036,10 +5036,10 @@
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/1.1.0",
       "files": [
-        "Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0.nupkg.sha512",
-        "Microsoft.Extensions.DependencyInjection.Abstractions.nuspec",
         "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml"
+        "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.1.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.DependencyModel/1.1.1": {
@@ -5249,10 +5249,10 @@
       "type": "package",
       "path": "microsoft.extensions.primitives/1.1.0",
       "files": [
-        "Microsoft.Extensions.Primitives.1.1.0.nupkg.sha512",
-        "Microsoft.Extensions.Primitives.nuspec",
         "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll",
-        "lib/netstandard1.0/Microsoft.Extensions.Primitives.xml"
+        "lib/netstandard1.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.1.1.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
       ]
     },
     "Microsoft.Extensions.WebEncoders/1.1.1": {
@@ -10660,15 +10660,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\123\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
+      "projectUniqueName": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
       "projectName": "CrazyBull.Api",
-      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
-      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\obj\\",
+      "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
+      "outputPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Api\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -10676,8 +10676,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj": {
-              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj"
+            "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj": {
+              "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj"
             }
           }
         }

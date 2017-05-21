@@ -7037,15 +7037,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\123\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Validations.EntLib\\CrazyBull.Validations.EntLib.csproj",
+      "projectUniqueName": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Validations.EntLib\\CrazyBull.Validations.EntLib.csproj",
       "projectName": "CrazyBull.Validations.EntLib",
-      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Validations.EntLib\\CrazyBull.Validations.EntLib.csproj",
-      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Validations.EntLib\\obj\\",
+      "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Validations.EntLib\\CrazyBull.Validations.EntLib.csproj",
+      "outputPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Validations.EntLib\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

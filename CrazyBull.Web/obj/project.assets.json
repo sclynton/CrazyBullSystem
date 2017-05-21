@@ -6959,16 +6959,16 @@
       ]
     },
     "System.Interactive.Async/3.0.0": {
-      "sha512": "UEM+WmG1Oq0bNbPx/E1jaIQ83QOrPfVDUyuYBtG6D6DpB77ytv9flPterMujumpHuoRjSc0ilSB8w41fQc05dw==",
+      "sha512": "iyrgkZz9Dzm0fiPouQszFC3SO/46k6AYd/jG9bu+/o0AoDMaRXtlo3TIuWVNtOuJFd1noL963QouroJ0T3rImw==",
       "type": "package",
       "path": "system.interactive.async/3.0.0",
       "files": [
-        "System.Interactive.Async.3.0.0.nupkg.sha512",
-        "System.Interactive.Async.nuspec",
         "lib/net45/System.Interactive.Async.dll",
         "lib/net45/System.Interactive.Async.xml",
         "lib/netstandard1.0/System.Interactive.Async.dll",
-        "lib/netstandard1.0/System.Interactive.Async.xml"
+        "lib/netstandard1.0/System.Interactive.Async.xml",
+        "system.interactive.async.3.0.0.nupkg.sha512",
+        "system.interactive.async.nuspec"
       ]
     },
     "System.IO/4.3.0": {
@@ -10356,7 +10356,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "CrazyBull.Core >= 1.0.0",
-      "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj",
+      "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.AspNetCore.Mvc >= 1.1.2",
@@ -10370,15 +10370,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\123\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Web\\CrazyBull.Web.csproj",
+      "projectUniqueName": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Web\\CrazyBull.Web.csproj",
       "projectName": "CrazyBull.Web",
-      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Web\\CrazyBull.Web.csproj",
-      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Web\\obj\\",
+      "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Web\\CrazyBull.Web.csproj",
+      "outputPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Web\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -10386,11 +10386,11 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj": {
-              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj"
+            "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj": {
+              "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj"
             },
-            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj": {
-              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj"
+            "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj": {
+              "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj"
             }
           }
         }
