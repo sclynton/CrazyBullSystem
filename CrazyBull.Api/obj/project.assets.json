@@ -10660,15 +10660,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\123\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
+      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
       "projectName": "CrazyBull.Api",
-      "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
-      "outputPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Api\\obj\\",
+      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\CrazyBull.Api.csproj",
+      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Api\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -10676,8 +10676,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj": {
-              "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj"
+            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj": {
+              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.MySql.EntityFramework\\CrazyBull.MySql.EntityFramework.csproj"
             }
           }
         }

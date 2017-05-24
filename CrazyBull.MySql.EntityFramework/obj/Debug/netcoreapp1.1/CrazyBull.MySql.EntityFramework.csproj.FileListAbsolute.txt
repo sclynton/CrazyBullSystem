@@ -1,0 +1,9 @@
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\bin\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.deps.json
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\bin\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\bin\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\bin\Debug\netcoreapp1.1\CrazyBull.Core.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\bin\Debug\netcoreapp1.1\CrazyBull.Core.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.csprojResolveAssemblyReference.cache
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.AssemblyInfo.cs
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.pdb

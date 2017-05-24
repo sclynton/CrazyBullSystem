@@ -6,8 +6,8 @@ using CrazyBull.Util.Validations;
 
 namespace CrazyBull.Application
 {
-    [Validation]
-    public interface IAppService
+    [AutoValidation]
+    public interface IService
     {
     }
 }

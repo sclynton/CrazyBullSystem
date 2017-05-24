@@ -7037,15 +7037,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\123\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj",
+      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj",
       "projectName": "CrazyBull.Core",
-      "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj",
-      "outputPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.Entity\\obj\\",
+      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj",
+      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

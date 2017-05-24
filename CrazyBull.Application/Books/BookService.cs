@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace CrazyBull.Application
 {
-    public class BookService : IAppService
+    public class BookService : IService
     {
         private IRepository<Book> _bookRepository;
         public BookService(IRepository<Book> bookRepository)

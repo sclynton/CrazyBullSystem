@@ -9111,15 +9111,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\123\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.WebFramework\\CrazyBull.WebFramework.csproj",
+      "projectUniqueName": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.WebFramework\\CrazyBull.WebFramework.csproj",
       "projectName": "CrazyBull.WebFramework",
-      "projectPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.WebFramework\\CrazyBull.WebFramework.csproj",
-      "outputPath": "E:\\project\\Git_New\\CrazyBullSystem\\CrazyBull.WebFramework\\obj\\",
+      "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.WebFramework\\CrazyBull.WebFramework.csproj",
+      "outputPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.WebFramework\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

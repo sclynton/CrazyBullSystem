@@ -1,0 +1,4 @@
+E:\projects\git\CrazyBullSystem\CrazyBull.Util\bin\Debug\netcoreapp1.1\CrazyBull.Util.deps.json
+E:\projects\git\CrazyBullSystem\CrazyBull.Util\obj\Debug\netcoreapp1.1\CrazyBull.Util.AssemblyInfo.cs
+E:\projects\git\CrazyBullSystem\CrazyBull.Util\bin\Debug\netcoreapp1.1\CrazyBull.Util.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.Util\obj\Debug\netcoreapp1.1\CrazyBull.Util.csprojResolveAssemblyReference.cache
