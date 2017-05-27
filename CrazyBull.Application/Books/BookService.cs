@@ -11,7 +11,7 @@ namespace CrazyBull.Application
         {
             _bookRepository = bookRepository;
         }
-        public async Task<int> InsertBook(InsertBookInputDto bookDto)
+        public async Task<int> InsertBook(InsertBookInput bookDto)
         {
             return await _bookRepository.InsertAsync(new Book());
         }

@@ -8,6 +8,6 @@ namespace CrazyBull.Application
 {
     public interface ICategoryService : IService
     {
-        Task<IEnumerable<CategoryOutputDto>> GetCategoryListByParentId(int parentId);
+        Task<IEnumerable<CategoryOutput>> GetCategoryListByParentIdAsync(int parentId);
     }
 }

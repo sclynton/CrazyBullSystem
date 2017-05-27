@@ -10,6 +10,8 @@ using Microsoft.Extensions.Logging;
 using MySQL.Data.EntityFrameworkCore.Extensions;
 using CrazyBull.MySql.EntityFramework;
 using Dora.Interception;
+using CrazyBull.Application;
+using CrazyBull.Core;
 
 namespace CrazyBull.Api
 {
@@ -32,6 +34,9 @@ namespace CrazyBull.Api
         {
             services.AddDbContext<CrazyBullDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("Conn")));
             services.AddScoped<CrazyBullDbContext>();
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
             // Add framework services.
             services.AddMvc();
             return services.BuilderInterceptableServiceProvider(builder=>builder.SetDynamicProxyFactory());

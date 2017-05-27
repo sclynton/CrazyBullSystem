@@ -16,9 +16,9 @@ namespace CrazyBull.MySql.EntityFramework
             _dbContext = dbContext;
         }
 
-        public async Task<IEnumerable<T>> GetAll()
+        public IQueryable<T> GetAll()
         {
-            return await _dbContext.Set<T>().ToListAsync();
+            return _dbContext.Set<T>().AsQueryable();
         }
 
         public async Task<int> InsertAsync(T t)

@@ -16,10 +16,14 @@ E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Api.runtimeconfig.dev.json
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Api.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Api.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Application.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Core.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Util.dll
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Application.pdb
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.pdb
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Core.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\bin\Debug\netcoreapp1.1\CrazyBull.Util.pdb
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.csprojResolveAssemblyReference.cache
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.AssemblyInfo.cs
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.dll

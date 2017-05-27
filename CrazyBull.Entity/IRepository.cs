@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,6 +10,6 @@ namespace CrazyBull.Core
     {
         Task<int> InsertAsync(T t);
 
-        Task<IEnumerable<T>> GetAll();
+        IQueryable<T> GetAll();
     }
 }
