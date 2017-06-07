@@ -8,10 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-using CrazyBull.Models;
 //using Autofac;
 //using Autofac.Extensions.DependencyInjection;
-using CrazyBull.Data.Repositrories;
 
 namespace CrazyBull.Web
 {
@@ -33,9 +31,9 @@ namespace CrazyBull.Web
         public void ConfigureServices(IServiceCollection services)
         {
             //DI
-            services.AddDbContext<NovelBookDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conn")));
+            //services.AddDbContext<NovelBookDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conn")));
             //services.AddScoped<IBookRepository, BookRepository>();
-            services.AddScoped<NovelBookDbContext>();
+            //services.AddScoped<NovelBookDbContext>();
 
             // Add framework services.
             services.AddMvc();

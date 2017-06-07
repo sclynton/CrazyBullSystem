@@ -8,3 +8,4 @@ E:\projects\git\CrazyBullSystem\CrazyBull.WebFramework\bin\Debug\netcoreapp1.1\C
 E:\projects\git\CrazyBullSystem\CrazyBull.WebFramework\obj\Debug\netcoreapp1.1\CrazyBull.WebFramework.AssemblyInfo.cs
 E:\projects\git\CrazyBullSystem\CrazyBull.WebFramework\obj\Debug\netcoreapp1.1\CrazyBull.WebFramework.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.WebFramework\obj\Debug\netcoreapp1.1\CrazyBull.WebFramework.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.WebFramework\obj\Debug\netcoreapp1.1\CrazyBull.WebFramework.csprojResolveAssemblyReference.cache

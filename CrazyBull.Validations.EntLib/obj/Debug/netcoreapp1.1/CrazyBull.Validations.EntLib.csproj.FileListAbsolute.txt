@@ -4,3 +4,4 @@ E:\projects\git\CrazyBullSystem\CrazyBull.Validations.EntLib\bin\Debug\netcoreap
 E:\projects\git\CrazyBullSystem\CrazyBull.Validations.EntLib\obj\Debug\netcoreapp1.1\CrazyBull.Validations.EntLib.AssemblyInfo.cs
 E:\projects\git\CrazyBullSystem\CrazyBull.Validations.EntLib\obj\Debug\netcoreapp1.1\CrazyBull.Validations.EntLib.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.Validations.EntLib\obj\Debug\netcoreapp1.1\CrazyBull.Validations.EntLib.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.Validations.EntLib\obj\Debug\netcoreapp1.1\CrazyBull.Validations.EntLib.csprojResolveAssemblyReference.cache

@@ -17,11 +17,7 @@ E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.
 E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Web.pdb
 E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Core.dll
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.EntityFramework.dll
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Entities.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Core.pdb
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.EntityFramework.pdb
-E:\projects\git\CrazyBullSystem\CrazyBull.Web\bin\Debug\netcoreapp1.1\CrazyBull.Entities.pdb
 E:\projects\git\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.csprojResolveAssemblyReference.cache
 E:\projects\git\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.AssemblyInfo.cs
 E:\projects\git\CrazyBullSystem\CrazyBull.Web\obj\Debug\netcoreapp1.1\CrazyBull.Web.dll

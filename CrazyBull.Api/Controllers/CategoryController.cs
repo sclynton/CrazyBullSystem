@@ -17,6 +17,7 @@ namespace CrazyBull.Api.Controllers
         {
             _categoryService = categoryService;
         }
+        [Route("list")]
         public async Task<IActionResult> GetCategoriesByParentId(int parentId = 0)
         {
             var categoies = await _categoryService.GetCategoryListByParentIdAsync(parentId);

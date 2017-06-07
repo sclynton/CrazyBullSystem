@@ -23,7 +23,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CrazyBull.Entity\CrazyBull.Core.csproj" />
-    <ProjectReference Include="..\CrazyBull.Models\CrazyBull.EntityFramework.csproj" />
   </ItemGroup>
 
 </Project>

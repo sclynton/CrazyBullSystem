@@ -28,3 +28,4 @@ E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.AssemblyInfo.cs
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.Api\obj\Debug\netcoreapp1.1\CrazyBull.Api.csproj.CoreCompileInputs.cache

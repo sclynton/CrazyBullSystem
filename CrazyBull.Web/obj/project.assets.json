@@ -10356,7 +10356,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "CrazyBull.Core >= 1.0.0",
-      "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.AspNetCore.Mvc >= 1.1.2",
@@ -10386,9 +10385,6 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj": {
-              "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Models\\CrazyBull.EntityFramework.csproj"
-            },
             "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj": {
               "projectPath": "E:\\projects\\git\\CrazyBullSystem\\CrazyBull.Entity\\CrazyBull.Core.csproj"
             }

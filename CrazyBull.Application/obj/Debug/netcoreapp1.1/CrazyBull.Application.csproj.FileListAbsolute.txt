@@ -9,3 +9,4 @@ E:\projects\git\CrazyBullSystem\CrazyBull.Application\obj\Debug\netcoreapp1.1\Cr
 E:\projects\git\CrazyBullSystem\CrazyBull.Application\obj\Debug\netcoreapp1.1\CrazyBull.Application.AssemblyInfo.cs
 E:\projects\git\CrazyBullSystem\CrazyBull.Application\obj\Debug\netcoreapp1.1\CrazyBull.Application.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.Application\obj\Debug\netcoreapp1.1\CrazyBull.Application.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.Application\obj\Debug\netcoreapp1.1\CrazyBull.Application.csproj.CoreCompileInputs.cache

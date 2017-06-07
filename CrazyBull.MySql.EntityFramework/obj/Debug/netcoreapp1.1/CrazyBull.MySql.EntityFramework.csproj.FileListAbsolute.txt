@@ -7,3 +7,4 @@ E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcor
 E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.AssemblyInfo.cs
 E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.dll
 E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.pdb
+E:\projects\git\CrazyBullSystem\CrazyBull.MySql.EntityFramework\obj\Debug\netcoreapp1.1\CrazyBull.MySql.EntityFramework.csproj.CoreCompileInputs.cache
