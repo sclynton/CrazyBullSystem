@@ -3095,6 +3095,12 @@
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
           "Microsoft.NETCore.App": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/CrazyBull.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrazyBull.Core.dll": {}
         }
       }
     }
@@ -8854,7 +8860,7 @@
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
-            "version": "[1.1.1, )"
+            "version": "1.1.1"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

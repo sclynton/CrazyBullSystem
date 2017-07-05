@@ -2674,6 +2674,12 @@
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
           "Microsoft.NETCore.App": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/CrazyBull.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrazyBull.Core.dll": {}
         }
       },
       "CrazyBull.Util/1.0.0": {
@@ -2683,6 +2689,12 @@
           "Dora.Interception": "1.1.0",
           "Dora.Interception.Castle": "1.1.0",
           "Microsoft.NETCore.App": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/CrazyBull.Util.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrazyBull.Util.dll": {}
         }
       }
     }
@@ -7974,18 +7986,17 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "1.1.1"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.1.2",
-            "autoReferenced": true
+            "version": "1.1.2"
           },
           "AutoMapper": {
             "target": "Package",
             "version": "6.0.2"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "1.1.1"
           }
         }
       }
