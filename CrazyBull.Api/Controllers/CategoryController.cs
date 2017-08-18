@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using CrazyBull.Application;
+using Microsoft.AspNetCore.Cors;
 
 namespace CrazyBull.Api.Controllers
 {
+    [EnableCors("AllowSameDomain")]
     [Produces("application/json")]
     [Route("api/Category")]
     public class CategoryController : Controller
@@ -17,7 +19,7 @@ namespace CrazyBull.Api.Controllers
         {
             _categoryService = categoryService;
         }
-        [Route("list")]
+        [HttpGet]
         public async Task<IActionResult> GetCategoriesByParentId(int parentId = 0)
         {
             var categoies = await _categoryService.GetCategoryListByParentIdAsync(parentId);

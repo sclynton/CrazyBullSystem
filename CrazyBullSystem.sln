@@ -1,29 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Web", "CrazyBull.Web\CrazyBull.Web.csproj", "{5F733F9B-B4C8-4DB4-BD0D-AE394A93C3BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.Web", "CrazyBull.Web\CrazyBull.Web.csproj", "{5F733F9B-B4C8-4DB4-BD0D-AE394A93C3BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Api", "CrazyBull.Api\CrazyBull.Api.csproj", "{8CAC56D8-C7A8-4D27-ABD4-F93E188E9777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.Api", "CrazyBull.Api\CrazyBull.Api.csproj", "{8CAC56D8-C7A8-4D27-ABD4-F93E188E9777}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A921C789-B064-4539-ABC9-223B3574C1CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Application", "CrazyBull.Application\CrazyBull.Application.csproj", "{27DA439E-1AFE-4448-A772-B94F7DA620A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.Application", "CrazyBull.Application\CrazyBull.Application.csproj", "{27DA439E-1AFE-4448-A772-B94F7DA620A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Core", "CrazyBull.Entity\CrazyBull.Core.csproj", "{0F12BE84-8BCB-4586-B3FF-BEEFF9EECAC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.Core", "CrazyBull.Entity\CrazyBull.Core.csproj", "{0F12BE84-8BCB-4586-B3FF-BEEFF9EECAC6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5264D2DC-E47D-40E9-B8A7-659A3EB9682B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.WebFramework", "CrazyBull.WebFramework\CrazyBull.WebFramework.csproj", "{73FF1990-3EBB-46AC-910D-40FBDDE02700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.WebFramework", "CrazyBull.WebFramework\CrazyBull.WebFramework.csproj", "{73FF1990-3EBB-46AC-910D-40FBDDE02700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.MySql.EntityFramework", "CrazyBull.MySql.EntityFramework\CrazyBull.MySql.EntityFramework.csproj", "{E640F14E-CE30-4A5D-9706-FD00DA62245D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.MySql.EntityFramework", "CrazyBull.MySql.EntityFramework\CrazyBull.MySql.EntityFramework.csproj", "{E640F14E-CE30-4A5D-9706-FD00DA62245D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Util", "CrazyBull.Util\CrazyBull.Util.csproj", "{BFD3DDA6-FAA4-49F8-91F7-558C40DC9E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.Util", "CrazyBull.Util\CrazyBull.Util.csproj", "{BFD3DDA6-FAA4-49F8-91F7-558C40DC9E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyBull.Validations.EntLib", "CrazyBull.Validations.EntLib\CrazyBull.Validations.EntLib.csproj", "{0A2DD50F-B448-46FA-B2C5-039CBAD6028B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.Validations.EntLib", "CrazyBull.Validations.EntLib\CrazyBull.Validations.EntLib.csproj", "{0A2DD50F-B448-46FA-B2C5-039CBAD6028B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{58695780-9543-493B-B2A1-01E6245520B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyBull.Sqlserver.EntityFramework", "CrazyBull.Sqlserver.EntityFramework\CrazyBull.Sqlserver.EntityFramework.csproj", "{B15F604B-30E8-47D3-A07A-43CF49B9381A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{0A2DD50F-B448-46FA-B2C5-039CBAD6028B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A2DD50F-B448-46FA-B2C5-039CBAD6028B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A2DD50F-B448-46FA-B2C5-039CBAD6028B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15F604B-30E8-47D3-A07A-43CF49B9381A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15F604B-30E8-47D3-A07A-43CF49B9381A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15F604B-30E8-47D3-A07A-43CF49B9381A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15F604B-30E8-47D3-A07A-43CF49B9381A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +81,9 @@ Global
 		{E640F14E-CE30-4A5D-9706-FD00DA62245D} = {5264D2DC-E47D-40E9-B8A7-659A3EB9682B}
 		{BFD3DDA6-FAA4-49F8-91F7-558C40DC9E70} = {5264D2DC-E47D-40E9-B8A7-659A3EB9682B}
 		{0A2DD50F-B448-46FA-B2C5-039CBAD6028B} = {5264D2DC-E47D-40E9-B8A7-659A3EB9682B}
+		{B15F604B-30E8-47D3-A07A-43CF49B9381A} = {5264D2DC-E47D-40E9-B8A7-659A3EB9682B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4666E71-603E-44D3-8768-49368BA11E52}
 	EndGlobalSection
 EndGlobal

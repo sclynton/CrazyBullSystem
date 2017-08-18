@@ -7,12 +7,21 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using MySQL.Data.EntityFrameworkCore.Extensions;
 using CrazyBull.MySql.EntityFramework;
 using Dora.Interception;
 using CrazyBull.Application;
 using CrazyBull.Core;
 using AutoMapper;
+using Swashbuckle.AspNetCore.Swagger;
+using CrazyBull.WebFramework;
+using Microsoft.Extensions.PlatformAbstractions;
+using System.IO;
+using CrazyBull.Sqlserver.EntityFramework;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace CrazyBull.Api
 {
@@ -31,26 +40,105 @@ namespace CrazyBull.Api
         public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public IServiceProvider ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CrazyBullDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("Conn")));
+            services.AddDbContext<CrazyBullDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conn")));
             services.AddScoped<CrazyBullDbContext>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
             // Add framework services.
             services.AddMvc();
-            return services.BuilderInterceptableServiceProvider(builder=>builder.SetDynamicProxyFactory());
+
+            // Register the Swagger generator, defining one or more Swagger documents
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+                //添加header过滤器
+                c.OperationFilter<HttpHeaderOperation>();
+                //Set the comments path for the swagger json and ui.
+                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+                var xmlPath = Path.Combine(basePath, "CrazyBull.Api.xml");
+                c.IncludeXmlComments(xmlPath);
+            });
+
+            // 从文件读取密钥
+            string keyDir = PlatformServices.Default.Application.ApplicationBasePath;
+
+            if (RSAUtils.TryGetKeyParameters(keyDir, true, out RSAParameters keyParams) == false)
+            {
+                keyParams = RSAUtils.GenerateAndSaveKey(keyDir);
+            }
+            var _key = new RsaSecurityKey(keyParams);
+            var _options = new JWTTokenOptions()
+            {
+                Key = _key,
+                Audience = "TestAudience",
+                Issuer = "TestIssuer", // 签发者名称
+                Credentials = new SigningCredentials(_key, SecurityAlgorithms.RsaSha256Signature)
+            };
+            services.AddAuthorization(auth =>
+            {
+                auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .RequireAuthenticatedUser()
+                    .Build());
+            });
+            services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.Authority = "TestIssuer";
+                options.Audience = "resource-server";
+                options.RequireHttpsMetadata = false;
+            });
+
+            services.AddSingleton(_options);
+
+            //添加允许跨域
+            services.AddCors(options =>
+               options.AddPolicy("AllowSameDomain",
+               builder => builder.WithOrigins("*").WithHeaders("date").
+               AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin().AllowCredentials())
+            );
+            //return services.BuilderInterceptableServiceProvider(builder=>builder.SetDynamicProxyFactory());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            app.UseStaticFiles();
+
+            app.UseAuthentication();
+            //var _tokenOptions = app.ApplicationServices.GetService<JWTTokenOptions>();
+            //app.UseJwtBearerAuthentication(new JwtBearerOptions
+            //{
+            //    TokenValidationParameters = new TokenValidationParameters
+            //    {
+            //        IssuerSigningKey = _tokenOptions.Key,
+            //        ValidAudience = _tokenOptions.Audience, // 设置接收者必须是 TestAudience
+            //        ValidIssuer = _tokenOptions.Issuer, // 设置签发者必须是 TestIssuer
+            //        ValidateLifetime = true
+            //    }
+            //});
+
             Mapper.Initialize(x=>x.CreateMap<Category, CategoryOutput>());
 
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
             app.UseMvc();
+
+            app.UseSwagger(c =>
+            {
+                c.PreSerializeFilters.Add((swaggerDoc, httpReq) => swaggerDoc.Host = httpReq.Host.Value);
+            });
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.ShowRequestHeaders();
+            });
         }
     }
 }
