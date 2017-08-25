@@ -62,6 +62,7 @@ namespace CrazyBull.Api
                 c.IncludeXmlComments(xmlPath);
             });
 
+            #region 发放Token
             // 从文件读取密钥
             string keyDir = PlatformServices.Default.Application.ApplicationBasePath;
 
@@ -84,17 +85,25 @@ namespace CrazyBull.Api
                     .RequireAuthenticatedUser()
                     .Build());
             });
+            #endregion
+            //.net core 2.0 鉴权和1.1写法不一样，参数JwtBearerOption是一样的，之前写在Configure方法里，现在只需要在Configurez方法中写一句app.UseAuthentication()
+            #region 鉴权Token
             services.AddAuthentication(options =>
             {
                 options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
             })
             .AddJwtBearer(options =>
             {
-                options.Authority = "TestIssuer";
-                options.Audience = "resource-server";
-                options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    IssuerSigningKey = _options.Key,
+                    ValidAudience = _options.Audience, // 设置接收者必须是 TestAudience
+                    ValidIssuer = _options.Issuer, // 设置签发者必须是 TestIssuer
+                    ValidateLifetime = true
+                };
             });
-
+            #endregion
+            //services.AddMvc().AddJsonOptions(options => { options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver(); });
             services.AddSingleton(_options);
 
             //添加允许跨域
@@ -112,17 +121,7 @@ namespace CrazyBull.Api
             app.UseStaticFiles();
 
             app.UseAuthentication();
-            //var _tokenOptions = app.ApplicationServices.GetService<JWTTokenOptions>();
-            //app.UseJwtBearerAuthentication(new JwtBearerOptions
-            //{
-            //    TokenValidationParameters = new TokenValidationParameters
-            //    {
-            //        IssuerSigningKey = _tokenOptions.Key,
-            //        ValidAudience = _tokenOptions.Audience, // 设置接收者必须是 TestAudience
-            //        ValidIssuer = _tokenOptions.Issuer, // 设置签发者必须是 TestIssuer
-            //        ValidateLifetime = true
-            //    }
-            //});
+
 
             Mapper.Initialize(x=>x.CreateMap<Category, CategoryOutput>());
 

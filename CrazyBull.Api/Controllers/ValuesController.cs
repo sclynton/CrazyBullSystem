@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using CrazyBull.WebFramework;
 
 namespace CrazyBull.Api.Controllers
 {
-    [Authorize]
+    [BearerAuthorize]
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
