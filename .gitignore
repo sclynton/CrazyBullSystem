@@ -1,0 +1,17 @@
+/CrazyBull.Api/obj
+/CrazyBull.Api/bin
+/.vs
+/CrazyBull.Application/obj
+/CrazyBull.Application/bin
+/CrazyBull.Entity/obj
+/CrazyBull.Entity/bin
+/CrazyBull.Models/obj
+/CrazyBull.Models/bin
+/CrazyBull.Sqlserver.EntityFramework/obj
+/CrazyBull.Sqlserver.EntityFramework/bin
+/CrazyBull.Util/obj
+/CrazyBull.Util/bin
+/CrazyBull.Web/obj
+/CrazyBull.Web/bin
+/CrazyBull.WebFramework/obj
+/CrazyBull.WebFramework/bin
