@@ -1,7 +1,0 @@
-c:\users\123\documents\visual studio 2017\Projects\CrazyBullSystem\CrazyBull.Models\bin\Debug\netcoreapp1.1\CrazyBull.Models.deps.json
-c:\users\123\documents\visual studio 2017\Projects\CrazyBullSystem\CrazyBull.Models\bin\Debug\netcoreapp1.1\CrazyBull.Models.dll
-c:\users\123\documents\visual studio 2017\Projects\CrazyBullSystem\CrazyBull.Models\obj\Debug\netcoreapp1.1\CrazyBull.Models.csprojResolveAssemblyReference.cache
-c:\users\123\documents\visual studio 2017\Projects\CrazyBullSystem\CrazyBull.Models\obj\Debug\netcoreapp1.1\CrazyBull.Models.AssemblyInfo.cs
-C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Models\bin\Debug\netcoreapp1.1\CrazyBull.Models.pdb
-C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Models\obj\Debug\netcoreapp1.1\CrazyBull.Models.dll
-C:\Users\123\Documents\Visual Studio 2017\Projects\CrazyBullSystem\CrazyBull.Models\obj\Debug\netcoreapp1.1\CrazyBull.Models.pdb
